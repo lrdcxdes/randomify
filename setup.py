@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="randomify",
-    version="0.1",
+    version="0.11",
     author="lordcodes",
     author_email="me@lordnet.ml",
     description="Simple python library for generate random words",
@@ -21,6 +21,6 @@ setuptools.setup(
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Operating System :: OS Independent",
     ],
-    package_dir={"": "randomify"},
     python_requires=">=3.0",
+    packages=["randomify"],
 )
